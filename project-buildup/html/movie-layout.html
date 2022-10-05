@@ -1,0 +1,30 @@
+<div class="col-12 col-md-6 col-xl-4 col-xxl-3">
+    <div class="card-movie d-flex flex-column g-4">
+      <img
+        class="poster"
+        src="https://m.media-amazon.com/images/M/MV5BNjRlZmM0ODktY2RjNS00ZDdjLWJhZGYtNDljNWZkMGM5MTg0XkEyXkFqcGdeQXVyNjAwMjI5MDk@._V1_FMjpg_UX1000_.jpg"
+      />
+      <div class="d-flex flex-row g-3 justify-content-between">
+        <h4 class="title">Mission: Impossible – Fallout</h4>
+        <div class="heart"></div>
+      </div>
+      <div class="d-flex flex-row g-3">
+        <p class="duration">147 MIN</p>
+        <p>|</p>
+        <p class="genre">ADVENTURE</p>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+
+const movie_layout = document.querySelector("div");
+const copy = movie_layout.cloneNode(true);
+
+for (let i = 0;i < 5; i++)
+{
+    document.body.append(movie_layout.cloneNode(true));
+}
+
+  </script>
