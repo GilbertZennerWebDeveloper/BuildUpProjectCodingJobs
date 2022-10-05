@@ -19,3 +19,4 @@ sort with either "desc" or "asc"
 maybe pagination if time
 
 yes will do that, working on it now
+you mean score (9.8 whatever) and not rating (PG13) right?
