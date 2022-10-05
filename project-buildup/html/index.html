@@ -207,6 +207,7 @@
               heading.textContent = movie.title;
 
               const anchor = document.createElement("a");
+              anchor.classList.add("details-link");
               anchor.href = `./details.html?id=${movie.mal_id}`;
               anchor.textContent = "More info";
 
