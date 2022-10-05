@@ -17,3 +17,5 @@ genres by IDs with numbers separated by comma,
 start_date with format YYYY-MM-DD,
 sort with either "desc" or "asc"
 maybe pagination if time
+
+yes will do that, working on it now
