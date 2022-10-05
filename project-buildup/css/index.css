@@ -1,0 +1,117 @@
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+body {
+  background-color: #202020;
+  color: gray;
+}
+
+.d-flex.g-0 {
+  gap: 0px;
+}
+.d-flex.g-1 {
+  gap: 4px;
+}
+.d-flex.g-2 {
+  gap: 8px;
+}
+.d-flex.g-3 {
+  gap: 16px;
+}
+.d-flex.g-4 {
+  gap: 24px;
+}
+.d-flex.g-5 {
+  gap: 32px;
+}
+
+div.separator {
+  background-color: #404040;
+  height: 1px;
+}
+
+.my-100px {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.py-120px {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+/* Movies */
+.poster {
+  height: 450px;
+  object-fit: cover;
+}
+
+/* Heart */
+.heart {
+  background-color: red;
+  flex-shrink: 0;
+  height: 16px;
+  position: relative;
+  top: 8px;
+  right: 4px;
+  transform: rotate(45deg);
+  width: 16px;
+}
+.heart:before,
+.heart:after {
+  background-color: red;
+  border-radius: 50%;
+  content: "";
+  height: 16px;
+  position: absolute;
+  width: 16px;
+}
+.heart:before {
+  bottom: 0px;
+  left: -8px;
+}
+.heart:after {
+  right: 0px;
+  top: -8px;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+}
+div.logo {
+  background-color: red;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  color: lightgray;
+  outline: none;
+  padding: 0px;
+  padding-bottom: 8px;
+}
+h6.alt {
+  color: red;
+  cursor: pointer;
+  text-transform: uppercase;
+}
